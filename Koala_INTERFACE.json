@@ -1,0 +1,53 @@
+{
+    "interfaceSpecification": {
+        "name": "Koala",
+
+        "methods": [
+            {
+                "name": "BeCute",
+                "variables": [
+                    {
+                        "name": "name",
+                        "type": "string"
+                    }
+                ],
+                "returns": [
+                    {
+                        "name": "str",
+                        "type": "string"
+                    }
+                ]
+            }
+        ],
+
+        "variables": [
+            {
+                "name": "name",
+                "type": "string"
+            }
+        ]
+    },
+
+    "tagConfigurations": [
+        {
+            "className": "Animal",
+            "configuration": {
+                "methods": {
+                    "SignatureMove": {
+                        "name": "BeCute",
+                        "variables": {
+                            "string": "name"
+                        },
+                        "returns": {
+                            "string": "str"
+                        }
+                    }
+                },
+                
+                "variables": {
+                    "animalSignature": "name"
+                }
+            }
+        }
+    ]
+}

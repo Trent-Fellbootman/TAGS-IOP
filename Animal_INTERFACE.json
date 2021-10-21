@@ -1,0 +1,31 @@
+{
+    "interfaceSpecification": {
+        "name": "Animal",
+
+        "methods": [
+            {
+                "name": "SignatureMove",
+                "variables": [
+                    {
+                        "name": "string",
+                        "type": "string"
+                    }
+                ],
+                "returns": [
+                    {
+                        "name": "string",
+                        "type": "string"
+                    }
+                ]
+            }
+        ],
+
+        "variables": [
+            {
+                "name": "animalSignature",
+                "type": "string"
+            }
+        ]
+    },
+    "tagConfigurations": []
+}

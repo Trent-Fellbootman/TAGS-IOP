@@ -1,0 +1,20 @@
+{
+    "interfaceName": "Koala",
+    "className": "Koala",
+    "configuration": {
+        "methods": {
+            "BeCute": {
+                "name": "BeAdorable",
+                "variables": {
+                    "name": "target"
+                },
+                "returns": {
+                    "str": "greetings"
+                }
+            }
+        },
+        "variables": {
+            "name": "signature"
+        }
+    }
+}
