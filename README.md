@@ -1,5 +1,7 @@
 # TAGS
 
+# OBSOLETE; trait mechanism in Rust provides similar functionality.
+
  Experimental IOP Framework for Python
 
  WARNING: Currently, this project has NO EXCEPTION HANDLING. USE AT YOUR OWN RISK!
